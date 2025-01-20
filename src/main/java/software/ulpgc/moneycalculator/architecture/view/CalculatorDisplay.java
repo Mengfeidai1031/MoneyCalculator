@@ -1,6 +1,6 @@
-package software.ulpgc.moneycalculator.view;
+package software.ulpgc.moneycalculator.architecture.view;
 
-import software.ulpgc.moneycalculator.model.Currency;
+import software.ulpgc.moneycalculator.architecture.model.Currency;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;

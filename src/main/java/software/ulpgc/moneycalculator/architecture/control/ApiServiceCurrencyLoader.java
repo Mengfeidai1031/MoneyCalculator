@@ -1,9 +1,9 @@
-package software.ulpgc.moneycalculator.control;
+package software.ulpgc.moneycalculator.architecture.control;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import software.ulpgc.moneycalculator.model.Currency;
+import software.ulpgc.moneycalculator.architecture.model.Currency;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class ApiService implements CurrencyLoader{
+public class ApiServiceCurrencyLoader implements CurrencyLoader{
     private static final String key = "f3b27f96fe3ffbafb701234e0b8d00ce";
     private static final String URL = "http://data.fixer.io/api/latest?access_key=" + key;
 

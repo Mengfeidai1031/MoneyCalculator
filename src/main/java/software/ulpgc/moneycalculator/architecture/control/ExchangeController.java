@@ -1,6 +1,6 @@
-package software.ulpgc.moneycalculator.control;
+package software.ulpgc.moneycalculator.architecture.control;
 
-import software.ulpgc.moneycalculator.view.CalculatorDisplay;
+import software.ulpgc.moneycalculator.architecture.view.CalculatorDisplay;
 
 public class ExchangeController {
     private final CalculatorDisplay view;

@@ -1,9 +1,9 @@
-package software.ulpgc.moneycalculator.control;
+package software.ulpgc.moneycalculator.architecture.control;
 
-import software.ulpgc.moneycalculator.model.Currency;
-import software.ulpgc.moneycalculator.model.ExchangeRate;
-import software.ulpgc.moneycalculator.model.Money;
-import software.ulpgc.moneycalculator.view.CalculatorDisplay;
+import software.ulpgc.moneycalculator.architecture.model.Currency;
+import software.ulpgc.moneycalculator.architecture.model.ExchangeRate;
+import software.ulpgc.moneycalculator.architecture.model.Money;
+import software.ulpgc.moneycalculator.architecture.view.CalculatorDisplay;
 
 public class ExchangeCommand implements Command {
     private final CalculatorDisplay view;
